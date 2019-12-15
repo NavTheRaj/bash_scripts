@@ -1,0 +1,11 @@
+#! /bin/bash
+
+echo OS-VERSION-
+lsb_release -d
+echo Current Logged-in users-
+w -h
+echo Current IP address-
+curl ifconfig.me
+echo ""
+echo System-uptime-
+uptime -p
